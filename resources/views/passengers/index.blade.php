@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <h1 class="mt-3 mb-4">
-                        Paasengers List
+                        Passengers List
                     </h1>
                 </div>
                 <div class="row">
