@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('passengers', function (Blueprint $table) {
             $table->id();
+            $table->string("nome")->nullable(false);
+            $table->string("cognome")->nullable(false);
+            $table->date("data_nascita");
+            $table->string("classe");
+            $table->integer("numero_passeggero")->unique()->nullable(false);
             $table->timestamps();
         });
     }
